@@ -167,7 +167,7 @@ h3 {
 
 .header-banner{
     min-height: 100vh;
-    background: url(../pictures/logo.png) 0 0/cover no-repeat;
+    background: url(./pictures/logo.png) 0 0/cover no-repeat;
 }
 
 /* header */
@@ -408,7 +408,7 @@ header {
     }
 
     &::after {
-        content: url(icons/Icon-Corona-virus.svg);
+        content: url(./icons/Icon-Corona-virus.svg);
         position: absolute;
         left: 50%;
         bottom: -20px;
@@ -501,7 +501,7 @@ header {
     }
 
     &::after {
-        content: url(icons/Icon-Corona-virus.svg);
+        content: url(./icons/Icon-Corona-virus.svg);
         position: absolute;
         left: 50%;
         bottom: -20px;
@@ -625,7 +625,7 @@ header {
     }
 
     &::after {
-        content: url(icons/Icon-Corona-virus.svg);
+        content: url(./icons/Icon-Corona-virus.svg);
         position: absolute;
         left: 50%;
         bottom: -20px;
@@ -747,5 +747,5 @@ footer {
     align-items: end;
     justify-content: center;
     min-height: 50vh;
-    background: url(/pictures/footer_logo.png) 0 0/cover no-repeat;
+    background: url(./pictures/footer_logo.png) 0 0/cover no-repeat;
 }
